@@ -8,7 +8,11 @@ body {
   margin: 0 auto;
 }
 
-#logo {
+#logo h1 {
+  float: left;
+}
+
+#logo a {
   width: 248px;
   height: 21px;
   text-indent: -9999px;
