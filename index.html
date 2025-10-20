@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"
-  type="text/css" href="./css/reset.css">
-  <link rel="stylesheet"
-  type="text/css" href="./css/normalize.css">
-  <link rel="stylesheet"
-  type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
   <title>Museu Nacional</title>
   <!--[if lt IE 9]>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
 <![endif]-->
 </head>
+
 <body>
-  <main id="container">
-    <header>
+  <div id="container"><!--start container-->
+    <header><!--start header-->
       <div id="logo">
-        <h1><a href="">Museu Nacional</a></h1>
+        <h1><a href="#">Museu Nacional</a></h1>
       </div>
-      <nav>
+      <nav><!--start navbar-->
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Exposições</a></li>
@@ -30,8 +29,50 @@
           <li><a href="#">Fotos</a></li>
           <li><a href="#">Contato</a></li>
         </ul>
-    </nav>
-    </header>
-  </main>
+      </nav><!--end navbar-->
+    </header><!--end header-->
+    <main>
+      <div id="content"><!--start content-->
+        <section id="cover">
+          <img src="./image/museu.png" alt="imagem do hall de entrada do museu nacional">
+        </section>
+      </div><!--end header-->
+      <aside><!--start aside-->
+        <section id="testimony"><!--start testimony-->
+          <img src="./image/depoimento.png" alt="imagem relatando o ano de criação do museu e o número do seu acervo">
+        </section><!--end testimony-->
+        <section id="visited"><!--start visited-->
+          <h4>Faça uma visita</h4>
+          <form>
+            <fieldset>
+              <legend>Selecione uma data</legend>
+              <label for="data">Data</label>
+              <input class="field" type="text" id="data" value="dd/mm/aaaa">
+
+              <label for="qtd">Qtd Pessoas</label>
+              <input
+              style="width: 30px;" class="field" type="text" id="qtd" value="1">
+            </fieldset>
+            <input class="button" type="submit" value="Verificar disponibilidade">
+          </form>
+        </section><!--end visited-->
+        <section id="gallery"><!--start gallery-->
+          <h4>Galeria de fotos</h4>
+          <a href="#">
+            <img src="./image/imagem1.jpg" alt="Foto da galeria do museu nacional">
+          </a>
+          <a href="#">
+            <img src="./image/imagem2.jpg" alt="Foto da galeria do museu nacional">
+          </a>
+          <a href="#">
+            <img src="./image/imagem3.jpg" alt="Foto da galeria do museu nacional">
+          </a>
+          <a href="#">
+            <img src="./image/imagem4.jpg" alt="Foto da galeria do museu nacional">
+          </a>
+        </section><!--end gallery-->
+      </aside><!--end aside-->
+    </main>
+  </div><!--end container-->
 </body>
 </html>

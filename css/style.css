@@ -36,11 +36,85 @@ nav ul li {
 
 nav ul li a:link {
   display: block;
-  margin-right: 20px;
+  margin-right: 25px;
   padding-bottom: 3px;
   text-transform: uppercase;
 }
 
 nav ul li a:hover {
-  border-bottom: 2px solid #535858;
+  border-bottom: 1px solid #535858;
+}
+
+#content {
+  width: 710px;
+  float: left;
+}
+
+aside {
+  width: 350px;
+  float: right;
+  background: #ebe7dd;
+  padding-bottom: 30px;
+}
+
+section#visited {
+  background: #cdc8b1;
+  padding: 10px 27px 27px 27px;
+  margin: 10px 0 10px 0;
+}
+
+h4 {
+  color: #86521a;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+label {
+  margin-left: 18px;
+}
+
+input {
+  width: 80px;
+  height: 20px;
+  background: #fff;
+  border: none;
+  font-size: 1em;
+}
+
+input.field {
+  border: 1px solid #ada484;
+}
+
+input.button {
+  width: 100%;
+  height: 40px;
+  font-size: 1.2em;
+  background: #9b9271;
+  color: #fff;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+section#gallery {
+  padding: 0 27px 0 27px;}
+
+section#gallery a {
+  display: block;
+  float: left;
+  margin: 10px 0 0 20px;
+  padding: 17px 15px 17px 15px;
+  background: url(../image/fundo-foto.png) no-repeat;
+}
+
+section#gallery img {
+  width: 93px;
+  height: 93px;
+  margin-left: 2px;
+  margin-top: 3px;
 }

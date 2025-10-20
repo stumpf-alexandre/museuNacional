@@ -8,7 +8,7 @@
     list-style-type: none;
 }
 
-a:link, a:visited {
+a:link, a:active, a:visited {
   color: #af670a;
 }
 
